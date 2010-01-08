@@ -51,7 +51,9 @@ Rails::Initializer.run do |config|
   config.action_mailer.perform_deliveries = false
 
   config.gem 'rubytree', :lib => 'tree'
+  config.gem 'mattetti-googlecharts', :lib => 'gchart', :version => ">=1.3.6"
   
+  config.action_controller.session = { :key => "_redmine_session", :secret => "9e36cd3fb84d21bc430f734bd837f7f8" }
   # Load any local configuration that is kept out of source control
   # (e.g. gems, patches).
   if File.exists?(File.join(File.dirname(__FILE__), 'additional_environment.rb'))
