@@ -18,3 +18,4 @@
 /tmp/test/*
 /vendor/rails
 /vendor/plugins/redmine_subtasks/
+/vendor/plugins/flotilla/
