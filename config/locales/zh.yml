@@ -590,7 +590,7 @@ zh:
   label_yesterday: 昨天
   label_this_week: 本周
   label_last_week: 下周
-  label_last_n_days: "最后 {{count}} 天"
+  label_last_n_days: "过去 {{count}} 天"
   label_this_month: 本月
   label_last_month: 下月
   label_this_year: 今年
